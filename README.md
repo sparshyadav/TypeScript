@@ -28,7 +28,23 @@ The product name (string), The price (number), Whether it's in stock (boolean).
 2. Optionally accepts a subtitle.
 3. Defaults the author parameter to "Anonymous".
 4. Accepts an arbitrary number of tags using rest parameters.
-The function should return a formatted string based on the input.
+- The function should return a formatted string based on the input.
+* Write a function that accepts a list of user objects (with id and name) as rest parameters and filters out users with duplicate ids. Ensure the function provides type safety for the rest parameters.
+* Write a function that logs a message starting with a timestamp and accepts additional message parts as rest elements.
+* Write a function that takes an array of numbers and returns the sum of all elements. Use type annotations.
+* Write a function that accepts either a string or a number and returns the length of the string or the number of digits in the number.
+
+**Interfaces**
+* Define an interface Car with the following properties:
+1. brand (readonly string)
+2. model (readonly string)
+3. color (optional string)
+4. features (optional array of strings)
+- Write a function that takes a Car object and attempts to modify its properties. The function should handle missing optional properties gracefully and log appropriate messages.
+
+
+
+
 
 
 
