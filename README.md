@@ -28,7 +28,7 @@ The product name (string), The price (number), Whether it's in stock (boolean).
 2. Optionally accepts a subtitle.
 3. Defaults the author parameter to "Anonymous".
 4. Accepts an arbitrary number of tags using rest parameters.
-    - The function should return a formatted string based on the input.
+The function should return a formatted string based on the input.
 
 
 
