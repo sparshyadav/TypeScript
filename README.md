@@ -54,6 +54,33 @@ Vehicle should include brand, model, and year.
 ElectricVehicle should extend Vehicle and add batteryCapacity and chargingTime.
 Implement a function that calculates the average charging time for a list of ElectricVehicle objects.
 
+**Object Oriented Programming**
+* Create a BankAccount class with the following features:
+1. Properties: accountNumber (readonly), accountHolder (public), and balance (private).
+2. Methods:
+    - deposit(amount: number): Adds the specified amount to the balance.
+    - withdraw(amount: number): Deducts the specified amount if sufficient balance is available.
+    - getBalance(): Returns the current balance.
+    - Use a readonly modifier for accountNumber.
+* Create an abstract class Employee with the following:
+1. Properties: name (public), age (protected), salary (protected).
+2. Methods:
+    - Abstract method calculateBonus().
+    - Concrete method getDetails() to display employee details.
+3. Create two subclasses Manager and Developer. 4. 4. Implement the calculateBonus() method:
+    - Managers get a 20% bonus on their salary.
+    - Developers get a 10% bonus on their salary.
+* Create a Product class with the following:
+1. Properties: name, price, and discount (all private).
+2. Getters for all properties.
+3. A setter for price to ensure it is non-negative.
+* Write a static class MathUtils that includes methods for:
+1. Calculating the factorial of a number.
+2. Finding the greatest common divisor (GCD) of two numbers.
+* Create an interface Vehicle with properties brand, model, and year. Create a class Car that implements this interface and adds:
+1. A property fuelType.
+2. A method drive() that logs the car's brand and fuel type. Create another class ElectricCar that extends Car and overrides drive() to mention the battery capacity.
+
 
 
 
