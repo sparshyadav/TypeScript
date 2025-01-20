@@ -21,5 +21,14 @@ The product name (string), The price (number), Whether it's in stock (boolean).
 * Define both Numeric and String enums in TypeScript. Then, create a function that accepts either a numeric or a string enum value and logs a specific message based on the enum value. Implement the function and demonstrate its usage.
 * Create a Calculator function that takes an enum value (Add, Subtract, Multiply, Divide) and two numbers, then performs the corresponding operation.
 
+**Functions**
+* Write a function that accepts a string and a boolean. If the boolean is true, the function should return an object containing the string and its length. If the boolean is false, it should return just the length of the string. Ensure the function enforces proper type safety with TypeScript.
+* Write a function that:
+1. Requires a title parameter.
+2. Optionally accepts a subtitle.
+3. Defaults the author parameter to "Anonymous".
+4. Accepts an arbitrary number of tags using rest parameters.
+    - The function should return a formatted string based on the input.
+
 
 
