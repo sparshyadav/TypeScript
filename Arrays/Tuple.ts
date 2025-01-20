@@ -3,5 +3,5 @@
 // The price (number)
 // Whether it's in stock (boolean)
 
-let product: [string, number, boolean] = ["Laptop", 65000, true];
-console.log(product);
+let productt: [string, number, boolean] = ["Laptop", 65000, true];
+console.log(productt);
