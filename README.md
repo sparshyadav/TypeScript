@@ -81,6 +81,16 @@ Implement a function that calculates the average charging time for a list of Ele
 1. A property fuelType.
 2. A method drive() that logs the car's brand and fuel type. Create another class ElectricCar that extends Car and overrides drive() to mention the battery capacity.
 
+**Generics**
+* Create a generic Stack class that supports push, pop, and peek operations. The stack should work only with types that extend a custom Printable interface with a print() method.
+* Create a generic class KeyValueStorage that can store key-value pairs. Provide methods to add, get, and remove items.
+* Create a generic interface PaginatedResponse<T> to represent paginated API responses. Use it to type an API response containing user data.
+* Create a generic function filterArray that filters elements from an array based on a condition. The function should work with any type of array.
+
+
+
+
+
 
 
 
