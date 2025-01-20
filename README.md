@@ -41,6 +41,19 @@ The product name (string), The price (number), Whether it's in stock (boolean).
 3. color (optional string)
 4. features (optional array of strings)
     - Write a function that takes a Car object and attempts to modify its properties. The function should handle missing optional properties gracefully and log appropriate messages.
+* Create an interface Company with the following structure:
+1. name (string, required)
+2. employees (array of Employee objects, required)
+    - The Employee interface should include:
+    1. id (number, readonly)
+    2. details (nested interface with name and optional department)
+    - Write a function to add new employees to the Company, ensuring that readonly constraints are maintained.
+* Design an interface DynamicObject where properties are optional, but all string keys should be readonly. Implement a function that takes a DynamicObject and attempts to modify its properties to demonstrate the readonly behavior.
+* Create two interfaces: Vehicle and ElectricVehicle.
+Vehicle should include brand, model, and year.
+ElectricVehicle should extend Vehicle and add batteryCapacity and chargingTime.
+Implement a function that calculates the average charging time for a list of ElectricVehicle objects.
+
 
 
 
