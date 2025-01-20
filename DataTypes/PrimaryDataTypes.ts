@@ -30,9 +30,9 @@ let notAssigned: undefined = undefined;
 
 
 
-// BigInt
-let bigNumber1: bigint = 3958023n;
-let bigNumber2: bigint = BigInt(543543534534344543534534);
+// // BigInt
+// let bigNumber1: bigint = 3958023n;
+// let bigNumber2: bigint = BigInt(543543534534344543534534);
 
 
 
