@@ -6,5 +6,5 @@ class MathUtilities {
     }
 }
 
-console.log(MathUtils.PI);
-console.log(MathUtils.calculateArea(5));
+console.log(MathUtilities.PI);
+console.log(MathUtilities.calculateArea(5));
