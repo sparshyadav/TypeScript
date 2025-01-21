@@ -23,6 +23,6 @@ class NestedContainer {
     }
 }
 const nested = new NestedContainer(10);
-console.log(nested.getConVal()); // Output: 10
+console.log(nested.getConVal());
 nested.setConVal(20);
 console.log(nested.getConVal());
