@@ -1,6 +1,6 @@
 "use strict";
 // Number
-let age1 = 15; // Integer
+let age = 15; // Integer
 let pi = 3.14; // Floating Point
 let hex = 0xff; // Hexadecimal
 let binary = 0b1010; // Binary
@@ -17,7 +17,7 @@ let empty = null;
 // undefined
 let notAssigned = undefined;
 // // BigInt
-// let bigNumber1: bigint = 3959876767658023n;
+// let bigNumber1: bigint = 3958023n;
 // let bigNumber2: bigint = BigInt(543543534534344543534534);
 // Symbol
 const id1 = Symbol("uniqueID");
