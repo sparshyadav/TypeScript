@@ -3,7 +3,7 @@ function mergeObj<T, U>(obj1: T, obj2: U): T&U{
     return {...obj1, ...obj2};
 }
 
-const obj1 = { name: "Sparsh", age: 21 };
-const obj2 = { age: 22, city: "Delhi" };
-const merged = mergeObj(obj1, obj2);
+const obj11 = { name: "Sparsh", age: 21 };
+const obj21 = { age: 22, city: "Delhi" };
+const mergedd = mergeObj(obj1, obj2);
 console.log(merged);
